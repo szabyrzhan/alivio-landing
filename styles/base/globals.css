@@ -1,3 +1,38 @@
 body {
+  font-size: 20px;
+  color: var(--color-black);
   font-family: 'Lato', sans-serif;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  padding-inline: 0;
+  background-color: transparent;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  border-radius: 4px;
+  outline: 2px dashed var(--color-accent);
+  outline-offset: 4px;
+}
+
+.container {
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+  padding-inline: var(--container-padding-x);
+  margin-inline: auto;
+}
+
+@media (max-width: 992px) {
+  body {
+    font-size: 16px;
+  }
 }
