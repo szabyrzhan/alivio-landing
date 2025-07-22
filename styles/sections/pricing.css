@@ -4,15 +4,9 @@
   background-color: var(--color-dark-accent);
 }
 
-.pricing__inner {
-}
-
 .pricing__title {
   font-size: 40px;
   font-weight: 900;
-}
-
-.pricing__menu {
 }
 
 .pricing__list {

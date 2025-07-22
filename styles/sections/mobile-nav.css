@@ -1,0 +1,65 @@
+.mobile-nav {
+  color: var(--color-accent);
+  position: absolute;
+  top: 26px;
+  right: 30px;
+  display: none;
+}
+
+.burger-icon {
+  width: 33px;
+  height: 20px;
+}
+
+.cross-icon {
+  position: absolute;
+  top: 26px;
+  right: 36px;
+
+  width: 23px;
+  height: 23px;
+}
+
+#toggler {
+  display: none;
+}
+
+.mobile-nav-list {
+  visibility: hidden;
+}
+
+.mobile-nav-list {
+  inset: 0;
+  position: fixed;
+  background-color: var(--color-white);
+}
+
+.mobile-nav-menu {
+  font-size: 34px;
+  font-weight: 600;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+
+  margin-left: 30px;
+  margin-top: 66px;
+}
+
+.mobile-nav-link {
+  color: var(--color-gray);
+}
+
+.current-link {
+  color: var(--color-black);
+}
+
+#toggler:checked + .mobile-nav-list {
+  visibility: visible;
+}
+
+@media (max-width: 768px) {
+  .mobile-nav {
+    display: block;
+  }
+}

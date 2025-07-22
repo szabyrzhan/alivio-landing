@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
   <symbol id="burger" viewBox="0 0 33 20">
-    <rect width="33" height="3.83721" fill="black"/>
-    <rect y="7.67383" width="33" height="3.83721" fill="black"/>
-    <rect y="15.3496" width="33" height="3.83721" fill="black"/>
+    <rect width="33" height="3.83721" fill="currentColor"/>
+    <rect y="7.67383" width="33" height="3.83721" fill="currentColor"/>
+    <rect y="15.3496" width="33" height="3.83721" fill="currentColor"/>
   </symbol>
   <symbol id="cross" viewBox="0 0 23 23">
-    <rect x="2.68701" width="27.3715" height="3.8" transform="rotate(45 2.68701 0)" fill="#828282"/>
-    <rect x="0.831055" y="19.5566" width="27.3715" height="3.8" transform="rotate(-45 0.831055 19.5566)" fill="#828282"/>
+    <rect x="2.68701" width="27.3715" height="3.8" transform="rotate(45 2.68701 0)" fill="currentColor"/>
+    <rect x="0.831055" y="19.5566" width="27.3715" height="3.8" transform="rotate(-45 0.831055 19.5566)" fill="currentColor"/>
   </symbol>
 </svg>

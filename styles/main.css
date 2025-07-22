@@ -6,6 +6,7 @@
 
 /* Sections */
 @import url('./sections/header.css');
+@import url('./sections/mobile-nav.css');
 @import url('./sections/hero.css');
 @import url('./sections/about.css');
 @import url('./sections/card.css');
