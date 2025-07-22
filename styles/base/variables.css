@@ -2,6 +2,7 @@
   --color-white: #fff;
   --color-black: #000;
   --color-accent: #01996d;
+  --color-light-accent: rgb(1, 153, 109, 0.2);
   --color-dark-accent: #245852;
 
   --container-width: 1400px;

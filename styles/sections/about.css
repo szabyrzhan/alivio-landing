@@ -1,0 +1,40 @@
+.about {
+  padding-block: 160px 60px;
+  background-color: var(--color-white);
+}
+
+.about__subtitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.about__content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about__title {
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--color-accent);
+  max-width: 500px;
+}
+
+.about__desc {
+  font-weight: 500;
+  max-width: 670px;
+}
+
+@media (max-width: 1230px) {
+  .about {
+    text-align: center;
+    padding-block: 100px 40px;
+  }
+
+  .about__content {
+    justify-content: center;
+    gap: 30px;
+  }
+}
